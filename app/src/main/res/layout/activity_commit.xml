@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colortitle"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/im_commit_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:padding="10dp"
+            android:layout_weight="0"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="@string/commit"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/colorwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.feicui.android.press.lib3.XMLListView.XListView
+        android:layout_width="match_parent"
+        android:id="@+id/xlv_commit"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+    </com.feicui.android.press.lib3.XMLListView.XListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:hint="@string/commit"
+            android:id="@+id/tv_commit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@color/colorBlue"
+            android:src="@drawable/commit_send"
+            android:id="@+id/im_send"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/colortitle"
+        android:layout_marginLeft="40dp"
+        android:layout_width="280dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

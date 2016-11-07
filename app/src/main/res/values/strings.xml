@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Press</string>
+    <!--加载数据进度提示-->
+    <string name="load">数据加载中......</string>
+    <!--进入首页面-->
+    <string name="index">欢迎进入首页面</string>
+
+    <!--标题-->
+    <string name="home_title">资讯</string>
+    <!--立即登录-->
+    <string name="to_login">立即登录</string>
+    <!--更新版本-->
+    <string name="updata">更新版本</string>
+    <!--新闻-->
+    <string name="title_news">新闻</string>
+    <string name="title_en_news">NEWS</string>
+    <!--收藏-->
+    <string name="title_favorite">收藏</string>
+    <string name="title_en_favorite">FAVORITE</string>
+    <!--本地-->
+    <string name="title_local">本地</string>
+    <string name="title_en_local">LOCAL</string>
+    <!--跟帖-->
+    <string name="title_comment">跟帖</string>
+    <string name="title_en_comment">COMMENT</string>
+    <!--图片-->
+    <string name="title_phone">图片</string>
+    <string name="title_en_phone">PHONE</string>
+
+    <!--提示输入用户名-->
+    <string name="name_hint">请输入用户名或手机号</string>
+    <!--提示输入密码-->
+    <string name="password_hint">请输入密码</string>
+    <string name="repassword_hint">请重新输入密码</string>
+    <!--邮箱-->
+    <string name="email_hint">请输入邮箱</string>
+    <!--登录-->
+    <string name="login_in">登录</string>
+    <!--注册-->
+    <string name="register_in">注册</string>
+    <string name="inregister_in">重新注册</string>
+    <!--找回密码-->
+    <string name="back_pass">找回密码</string>
+
+    <!--取消收藏-->
+    <string name="false_collection">取消收藏</string>
+    <!--评论-->
+    <string name="commit">评论</string>
+    <!--收藏-->
+    <string name="true_collection">收藏</string>
+    <!--个人中心-->
+    <string name="home_center">个人中心</string>
+    <!--注销-->
+    <string name="logout">退出登录</string>
+    <!--相机-->
+    <string name="camera">相机</string>
+    <!--相册-->
+    <string name="photo">相册</string>
+    <!--财经-->
+    <string name="caijing">财经</string>
+    <!--科技-->
+    <string name="keji">科技</string>
+    <!--体育-->
+    <string name="tiyu">体育</string>
+    <!--分类-->
+    <string name="type">新闻分类</string>
+    <!--XListView数据-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+</resources>

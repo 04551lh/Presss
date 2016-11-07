@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/im_commit_portrain"
+                android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_commit_name"
+                android:text="用户名"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_commit_time"
+                android:layout_marginTop="10dp"
+                android:text="2014/11/32 15:24:54"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_commit_context"
+            android:textSize="@dimen/title_news"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:text="集合排序上转型与下转型多线程实现继承Thread类、实现Runnable接口的区别线程安全API文档在哪ArrayList与LinkList的区别"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_back"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_title_home_default"/>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/et_lname"
+            android:layout_weight="1"
+            android:hint="@string/name_hint"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/button_backgroud"
+            android:id="@+id/bt_lregister"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:text="@string/register_in"
+            android:layout_height="50dp" />
+    </LinearLayout
+       >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/loginsuo"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:id="@+id/et_lpwd"
+            android:inputType="textPassword"
+            android:layout_weight="1"
+            android:hint="@string/password_hint"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/button_backgroud"
+            android:id="@+id/bt_getpwd"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:layout_width="100dp"
+            android:text="@string/back_pass"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/normalbutton_normal"
+            android:id="@+id/bt_llogin"
+            android:enabled="false"
+            android:text="@string/login_in"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

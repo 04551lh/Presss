@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="trans">#00000000</color>
+
+    <!--标题背景颜色-->
+    <color name="colortitle">#AC0000</color>
+    <!--标题字体颜色-->
+    <color name="colorwhite">#FFFFFF</color>
+    <!--滑动图标颜色-->
+    <color name="colorBlue">#FF8535</color>
+    <!--登录首页面的背景颜色-->
+    <color name="colorBack">#000000</color>
+    <!--字的颜色-->
+    <color name="colorSize">#999999</color>
+    <!--侧滑左布局默认背景颜色-->
+    <color name="slidingBack">#33c85555</color>
+</resources>

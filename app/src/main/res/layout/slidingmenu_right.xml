@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_slidingmenu_left"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/im_login"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_login"
+        android:textSize="@dimen/title_to_login"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/tv_login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/im_login"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updata"
+        android:textSize="@dimen/title_updata"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/tv_up"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_qwsw"
+        android:background="@drawable/share_little_bg"
+        android:orientation="horizontal"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fun_share_weixin"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/addimport_qq"
+            android:layout_marginRight="15dp"
+            android:layout_width="45dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/fun_share_friends"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/fun_share_weibo"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+</RelativeLayout>

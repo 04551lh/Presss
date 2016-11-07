@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_home"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colortitle"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/im_home_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:padding="10dp"
+            android:layout_weight="0"/>
+        <TextView
+            android:text="@string/home_center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/colorwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/im_user_portrait"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+        <LinearLayout
+            android:layout_gravity="bottom|"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_user_nid"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="用户名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_user_time"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:text="上次登录时间"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_user_address"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:text="地点"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="用户积分："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_user_integration"
+            android:layout_weight="1"
+            android:text="1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="评论总数："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_user_comnum"
+            android:layout_weight="1"
+            android:text="1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="时间"
+            android:textSize="@dimen/title_news"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="地点"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/title_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:text="设备"
+            android:layout_weight="1"
+            android:textSize="@dimen/title_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.feicui.android.press.lib3.XMLListView.XListView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:id="@+id/xlv_home">
+   </com.feicui.android.press.lib3.XMLListView.XListView>
+    <Button
+        android:background="@drawable/button_backgroud"
+        android:id="@+id/bt_logout"
+        android:textColor="@color/colortitle"
+        android:textSize="@dimen/title_news"
+        android:text="@string/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

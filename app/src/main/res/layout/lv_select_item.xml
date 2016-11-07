@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:id="@+id/news"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_select_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/im_select"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_select_title"
+                    android:text="fjdsakjf"
+                    android:textSize="20dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_select_summary"
+                    android:text="fjdsakjf"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_select_time"
+                    android:text="fjdsakjf"
+                    android:gravity="end"
+                    android:textSize="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/money"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_select_money"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/im_select_m"-->
+                <!--android:src="@drawable/ic_launcher"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp" />-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_mtitle"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_msummary"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_select_mtime"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:gravity="end"-->
+                    <!--android:textSize="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/s"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_select_s"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/im_select_s"-->
+                <!--android:src="@drawable/ic_launcher"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp" />-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_stitle"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_ssummary"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_select_stime"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:gravity="end"-->
+                    <!--android:textSize="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/pe"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_select_pe"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/im_select_pe"-->
+                <!--android:src="@drawable/ic_launcher"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp" />-->
+            <!--<LinearLayout-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_petitle"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/tv_select_pesummary"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_select_petime"-->
+                    <!--android:text="fjdsakjf"-->
+                    <!--android:gravity="end"-->
+                    <!--android:textSize="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
